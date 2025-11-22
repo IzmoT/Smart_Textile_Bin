@@ -1,0 +1,26 @@
+# --- JÄRJESTELMÄN ROSKAT ---
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- HENKILÖKOHTAISET TIEDOSTOT ---
+muistiinpanot/
+vanhat_koodit/
+Others/
+*.txt
+
+# --- DATA (Tärkeä!) ---
+*.csv
+*.db
+*.sqlite
+
+# --- TIETOTURVA (Kriittinen!) ---
+# Jos käytät API-avaimia tiedostossa, piilota se!
+.env
+secrets.py
+api_keys.txt
+
+# --- VIRTUAALIYMPÄRISTÖ ---
+venv/
+env/
+.venv/
